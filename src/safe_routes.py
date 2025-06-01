@@ -1,4 +1,4 @@
-def find_safe_routes(distances: list[float] = list()):
+def find_safe_routes(distances: list[float] = list()) -> list[float]:
     aux = 0
     for i in range(0, len(distances)):
         for j in range(i+1, len(distances)):
