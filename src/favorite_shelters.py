@@ -1,15 +1,16 @@
-def favorite_shelters():
-    favorites = []
-    while True:
-        menu = """    =======================================
+MENU = """    =======================================
         1 - Adicionar abrigo favorito
         2 - Remover abrigo favorito
         3 - Listar favoritos
         0 - Sair
     =======================================
-        """
+"""
 
-        option = input(menu)
+def favorite_shelters():
+    favorites = []
+    print(MENU)
+    while True:
+        option = input("Digite a opção desejada: ")
 
         if option == "1":
             name = input("Digite o nome do abrigo favorito: ")
@@ -28,7 +29,6 @@ def favorite_shelters():
 
         else:
             print("Opção inválida!")
-
 
 
 def main():
