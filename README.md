@@ -114,9 +114,9 @@ Este projeto é licenciado sob a **Licença MIT** - veja o arquivo [LICENSE](LIC
 
 
 ## 👥 Integrantes
-- **Gabriel Augusto**
-- **Beatriz Cortez**
-- **Bruno Alves**
+- **Gabriel Augusto - RM564126**
+- **Beatriz Cortez - RM561431**
+- **Bruno Alves - RM563986**
 
 ---
 
