@@ -21,7 +21,7 @@ def main():
     tips = ["Evite áreas alagadas", "Mantenha-se em locais altos", "Use transporte público"]
 
     # Região informada pelo usuário
-    region_name = "Zona Sudeste"
+    region_name = input("Digite a região do usuário (Zona Norte, Zona Sul, Centro): ")
 
     # Obtém e exibe a dica de segurança para a região informada
     result = get_safety_tip(region_name, regions, tips)
